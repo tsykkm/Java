@@ -15,11 +15,11 @@ public class RandomHandTacticsImpl implements InterfaceTactics{
 		String janHand = null;
 
 		if(hand  < 1){
-			janHand = PlayerBase.GU;
+			janHand = JankenHandType.GU.get();
 		}else if(hand  < 2){
-			janHand = PlayerBase.CHOKI;
+			janHand = JankenHandType.CHOKI.get();
 		}else if(hand  < 3){
-			janHand = PlayerBase.PA;
+			janHand = JankenHandType.PA.get();
 		}
 
 		return janHand;

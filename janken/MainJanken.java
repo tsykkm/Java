@@ -1,6 +1,5 @@
 package Janken;
 
-
 /**
  * @author Toshi
  *
@@ -10,10 +9,17 @@ public class MainJanken {
 		// ------インスタンス生成------
 		JudgeBase judge = new JudgeBase();
 
-		 // ------Factory------
-		 JankenFactory jf = new JankenFactory();
-		 PlayerBase yamada = jf.create("山田");
-		 PlayerBase kume = jf.create("粂");
+		// enum確認
+		//System.out.println("enum");
+		JankenHandType janken = null;
+		System.out.println(janken.GU.ordinal());
+
+		// ------Factory------
+		JankenFactory jf = new JankenFactory();
+		PlayerBase yamada = jf.create("山田");
+		PlayerBase kume = jf.create("粂");
+
+
 
 //		PlayerBase yamada = new PlayerBase("山田");// 山田さん生成
 //		InterfaceTactics yamadaTactics = new TacticsImpl();// 戦略クラス生成

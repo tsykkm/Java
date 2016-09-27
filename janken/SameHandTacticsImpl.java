@@ -8,7 +8,7 @@ package Janken;
 public class SameHandTacticsImpl implements InterfaceTactics{
 
 	public String readTactics(){
-		return PlayerBase.GU;
+		return JankenHandType.GU.get();
 	}
 
 }
