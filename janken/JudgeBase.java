@@ -63,14 +63,15 @@ public class JudgeBase
      */
     public void judgeJanken(PlayerBase p1, PlayerBase p2){
     	PlayerBase winner = null;
+    	JankenHandType janken = null;
 
-    	if(p1Hand == PlayerBase.GU && p2Hand == PlayerBase.CHOKI ||
-    	   p1Hand == PlayerBase.CHOKI && p2Hand == PlayerBase.PA ||
-    	   p1Hand == PlayerBase.PA && p2Hand == PlayerBase.GU){
+    	if(p1Hand == janken.GU.get() && p2Hand == janken.CHOKI.get() ||
+    	   p1Hand == janken.CHOKI.get() && p2Hand == janken.PA.get() ||
+    	   p1Hand == janken.PA.get() && p2Hand == janken.GU.get()){
     		winner = p1;
-    	}else if(p2Hand == PlayerBase.GU && p1Hand == PlayerBase.CHOKI ||
-    			 p2Hand == PlayerBase.CHOKI && p1Hand == PlayerBase.PA ||
-    			 p2Hand == PlayerBase.PA && p1Hand == PlayerBase.GU){
+    	}else if(p2Hand == janken.GU.get() && p1Hand == janken.CHOKI.get() ||
+    			 p2Hand == janken.CHOKI.get() && p1Hand == janken.PA.get() ||
+    			 p2Hand == janken.PA.get() && p1Hand == janken.GU.get()){
     		winner = p2;
     	}else{
     		// あいこ

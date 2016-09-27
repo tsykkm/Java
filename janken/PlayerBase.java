@@ -7,9 +7,9 @@ package Janken;
 public class PlayerBase {
 
 //ジャンケンの手を表す定数
-public static final String GU = "グー";
-public static final String CHOKI = "チョキ";
-public static final String PA = "パー";
+//public static final String GU = "グー";
+//public static final String CHOKI = "チョキ";
+//public static final String PA = "パー";
 
 
 //----------属性----------
