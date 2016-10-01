@@ -6,12 +6,6 @@ package Janken;
  */
 public class PlayerBase {
 
-//ジャンケンの手を表す定数
-//public static final String GU = "グー";
-//public static final String CHOKI = "チョキ";
-//public static final String PA = "パー";
-
-
 //----------属性----------
 // プレイヤー名
 private String name;
@@ -23,7 +17,7 @@ private String hand;
 private InterfaceTactics tactics;// newはメインクラスで行い、setTacticsでインスタンスを受け取る
 
 //----------コンストラクタ----------
-public PlayerBase(String name){
+private PlayerBase(String name){
 	this.setName(name);
 }
 
