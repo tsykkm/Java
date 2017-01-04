@@ -22,6 +22,8 @@ public class SampleMain {
 		System.out.println(strArray.subList(0, 4));
 		System.out.println(map);
 
+		// Generics
+
 	}
 }
 
