@@ -1,0 +1,12 @@
+package kintai;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SampleMain {
+	public static void main(String[] args) {
+		List<String> strArray = new ArrayList<String>();
+		System.out.println("aaaa");
+
+	}
+}

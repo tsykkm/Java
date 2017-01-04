@@ -1,0 +1,16 @@
+package kintai;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SampleMain {
+	public static void main(String[] args) {
+		List<Integer> strArray = new ArrayList<Integer>();
+		for(int i = 0; i < 8; i++){
+			strArray.add(i);
+			//System.out.println(strArray);
+		}
+		System.out.println(strArray);
+
+	}
+}
