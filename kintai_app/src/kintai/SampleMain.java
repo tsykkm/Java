@@ -20,8 +20,12 @@ public class SampleMain {
 		EmployeeRoot employeeRoot = new EmployeeRoot();
 
 		System.out.println(strArray.subList(0, 4));
-		System.out.println(map);
+		System.out.println(map.size());
 
+		// Generics
+		Gsample<String> gSample = new Gsample<>();
+		gSample.put("aaa");
+		System.out.println(gSample.get());
 	}
 }
 
