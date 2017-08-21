@@ -1,10 +1,8 @@
 package design.iterator.interfc;
 
 /**
- * 持っている要素を順番にスキャンする
- *
+ * scan elements that is on aggregation
  */
 public interface Aggregate {
-	// AggregateクラスがIteratorを生成する
 	public abstract Iterator iterator();
 }

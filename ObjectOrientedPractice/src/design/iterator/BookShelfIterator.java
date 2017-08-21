@@ -3,14 +3,14 @@ package design.iterator;
 import design.iterator.interfc.Iterator;
 
 /**
- * 本棚の本をスキャンする
- * Iteratorとして扱うため、Iteratorインターフェースを実装
+ * Scan books on BookShelf
+ *
  */
 public class BookShelfIterator implements Iterator {
 
 	// スキャンする本棚
 	private BookShelf bookShelf;
-	// 冊数
+	// number of books
 	private int index;
 
 	public BookShelfIterator(BookShelf bookShelf) {
@@ -27,8 +27,8 @@ public class BookShelfIterator implements Iterator {
 	}
 
 	/**
-	 * 集合体の要素(本)を一つ返す
-	 * @return 本
+	 * return aggregation element
+	 * @return book
 	 */
 	public Object next() {
 		Book book = bookShelf.getBookAt(index);
