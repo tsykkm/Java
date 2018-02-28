@@ -1,0 +1,15 @@
+package tr.dev.comtetition;
+
+import java.io.FileReader;
+
+public class KumeOriginalSort {
+
+	public static void main(String[] args) {
+		String fileName = "/src/resource/test01.csv";
+
+		FileReader fr = new FileReader(fileName);
+
+
+
+	}
+}

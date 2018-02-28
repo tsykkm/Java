@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="4 個の要素を &apos;TechCompetition/src/csvsample&apos; にコピー&#x0A;- 元のプロジェクト: &apos;java_csvsample&apos;&#x0A;- 宛先要素: &apos;TechCompetition/src/csvsample&apos;&#x0A;- オリジナル要素:&#x0A;     Sort.java&#x0A;     CustomArrayList.java&#x0A;     csv&#x0A;     reader" description="要素のコピー" destination="=TechCompetition/src&lt;csvsample" element1="src/main/java/csvsample/Sort.java" element2="src/main/java/csvsample/CustomArrayList.java" element3="src/main/java/csvsample/csv" element4="src/main/java/csvsample/reader" files="2" flags="589830" folders="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500135522691" units="0" version="1.0"/>
+</session>
