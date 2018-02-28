@@ -1,0 +1,13 @@
+package com.example;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.example.app.*;
+
+@Configuration
+public class AppConfig {
+	@Bean
+	Calculator calculator() {
+		return new AddCalculator();
+	}
+}

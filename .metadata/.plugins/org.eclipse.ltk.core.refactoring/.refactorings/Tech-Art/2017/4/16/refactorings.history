@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 個の要素を &apos;Tech-Art/src/design.pattern&apos; に移動&#x0A;- 元のプロジェクト: &apos;Tech-Art&apos;&#x0A;- 宛先要素: &apos;Tech-Art/src/design.pattern&apos;&#x0A;- オリジナル要素:&#x0A;     Study60.java&#x0A;     Study61.java&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="/src&lt;design.pattern" element1="/src&lt;{Study60.java" element2="/src&lt;{Study61.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1492769601573" units="2" version="1.0"/>
+</session>

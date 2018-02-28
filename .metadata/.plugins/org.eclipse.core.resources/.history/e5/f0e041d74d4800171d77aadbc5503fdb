@@ -1,0 +1,20 @@
+package tr.dev.comtetition;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class KumeOriginalSort {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		String fileName = "/Users/kumetoshiyuki/Downloads/test01.csv";
+
+		FileReader file = new FileReader(fileName);
+
+		if (file != null) {
+			System.out.println("aaa" + file);
+		}
+		System.out.println("aaa");
+
+
+	}
+}
