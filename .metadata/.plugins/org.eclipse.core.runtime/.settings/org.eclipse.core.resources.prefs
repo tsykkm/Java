@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 version=1
 eclipse.preferences.version=1
 encoding=UTF-8
 refresh.lightweight.enabled=true
+=======
+eclipse.preferences.version=1
+encoding=UTF-8
+org.eclipse.jdt.core.interfaceFormat=ZC5|GC5|FGNEG756356|CEB5|QC5|Q5|PQ63
+refresh.lightweight.enabled=true
+version=1
+>>>>>>> origin/master

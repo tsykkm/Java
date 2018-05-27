@@ -1,15 +1,27 @@
 {
   "version": "v1",
   "title": "JBoss Tools",
+<<<<<<< HEAD
   "timestamp": 1483104272690,
   "ttl": 0,
   "helpUrl": "https://aer.ctrlflow.com/redhat/help",
   "feedbackUrl": "http://ctrlflow.com/automated-error-reporting",
   "aboutUrl": "http://ctrlflow.com/automated-error-reporting",
+=======
+  "timestamp": 1519790234859,
+  "ttl": 0,
+  "helpUrl": "https://aer.ctrlflow.com/redhat/help",
+  "feedbackUrl": "https://www.codetrails.com/error-analytics/",
+  "aboutUrl": "https://www.codetrails.com/error-analytics/",
+>>>>>>> origin/master
   "submitUrl": "https://aer.ctrlflow.com/redhat/community/new",
   "maxReportSize": 262144,
   "problemsUrl": "https://aer.ctrlflow.com/downloads/redhat/problems.zip",
   "problemsTtl": 20160,
+<<<<<<< HEAD
+=======
+  "interestUrl": "https://aer.ctrlflow.com/redhat/community/interest",
+>>>>>>> origin/master
   "connectTimeout": 5,
   "socketTimeout": 10,
   "acceptedProducts": [

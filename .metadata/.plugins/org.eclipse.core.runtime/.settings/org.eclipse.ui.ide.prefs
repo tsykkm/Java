@@ -3,8 +3,15 @@ IDE_ENCODINGS_PREFERENCE=MS932'EUC-JP
 PROBLEMS_FILTERS_MIGRATE=true
 SHOW_LOCATION=true
 SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=never
+<<<<<<< HEAD
 WORKSPACE_NAME=
 eclipse.preferences.version=1
 platformState=1483102116674
+=======
+TASKS_FILTERS_MIGRATE=true
+WORKSPACE_NAME=
+eclipse.preferences.version=1
+platformState=1518942190823
+>>>>>>> origin/master
 quickStart=false
 tipsAndTricks=true

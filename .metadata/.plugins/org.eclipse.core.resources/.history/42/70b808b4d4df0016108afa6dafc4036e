@@ -1,0 +1,20 @@
+package kintai;
+
+public class ForTest {
+    public static void func01(){
+        func02();
+    }
+
+    public static void func02(){
+        func03();
+    }
+
+    public static void func03(){
+        //Exception発生
+        Integer a=10/0;
+    }
+
+    public static void main(String[] args){
+        func01();
+    }
+}
