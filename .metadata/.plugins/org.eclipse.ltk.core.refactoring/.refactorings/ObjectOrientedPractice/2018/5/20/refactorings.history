@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SampleLambda.java&apos; to &apos;functional.lambda.SampleLambda.java&apos;&#x0A;- 元のプロジェクト: &apos;ObjectOrientedPractice&apos;&#x0A;- 宛先要素: &apos;functional.lambda.SampleLambda.java&apos;&#x0A;- オリジナル要素: &apos;functional.lambda.SampleLambda.java&apos;" description="コンパイル単位をコピー" destination="/src&lt;functional.lambda{SampleLambda.java" element1="/src&lt;functional.lambda{SampleLambda.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1526730291101" units="1" version="1.0"/>
+</session>

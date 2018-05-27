@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;SpringBootSample/src/main/resources/templates/index.html&apos; を &apos;messages.html&apos; に変更します" description="リソース &apos;index.html&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/index.html" name="messages.html" stamp="1520161820255" updateReferences="true"/>
+</session>

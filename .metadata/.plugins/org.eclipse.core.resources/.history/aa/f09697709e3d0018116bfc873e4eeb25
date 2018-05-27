@@ -1,0 +1,11 @@
+package business.training;
+
+import java.security.Timestamp;
+
+public class TimeStampMain {
+
+	public static void main(String[] args) {
+	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+	}
+
+}

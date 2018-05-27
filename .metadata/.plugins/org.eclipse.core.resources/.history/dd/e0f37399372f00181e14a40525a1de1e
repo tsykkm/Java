@@ -1,0 +1,20 @@
+package basic;
+
+import basic.inheritance.SubInheritanceLearning;
+import basic.inheritance.SuperInheritanceLearning;
+
+public class ExecMain {
+	public static void main(String[] args) {
+		// 親クラスへのアップキャスト宣言の検証
+		// 親クラス = 子クラス
+		SuperInheritanceLearning sup = new SubInheritanceLearning();
+		sup.method1();
+		// sup.method2(); compilation error
+		System.out.println("oooo");
+		// 子クラス = 子クラス
+		SubInheritanceLearning sub = new SubInheritanceLearning();
+		sub.method1();
+		sub.method2();
+	}
+
+}
